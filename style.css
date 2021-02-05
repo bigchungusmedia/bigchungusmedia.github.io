@@ -46,10 +46,10 @@ TABLE OF CONTENT
 
   /* COLOR PALETTE */
 
-  --ui-color-n-000: #fff;
+  --ui-color-n-000: #4eb8fd;
   --ui-color-n-050: #f5f5f5;
   --ui-color-n-100: #ebebeb;
-  --ui-color-n-300: #aeaeae;
+  --ui-color-n-300: #404040;
   --ui-color-n-500: #353535;
   --ui-color-n-700: #282828;
   --ui-color-n-900: #1a1a1a;
@@ -443,6 +443,16 @@ div label[for=ui-component-toggle__yearly] {
 
 /*--------------------------------------------------------------
 |
+| 7.? WAVES
+|
+--------------------------------------------------------------*/
+
+.ui-section-waves {
+  background-color: #fff;
+}
+
+/*--------------------------------------------------------------
+|
 | 7.2 HERO
 |
 --------------------------------------------------------------*/
@@ -460,6 +470,10 @@ div label[for=ui-component-toggle__yearly] {
 | 7.3 CUSTOMER
 |
 --------------------------------------------------------------*/
+
+.ui-section-customer {
+  background-color: #fff;
+}
 
 .ui-section-customer__layout {
   flex-direction: column;
